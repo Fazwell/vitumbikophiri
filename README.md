@@ -1,8 +1,3 @@
-# Fazwells Portfolio
+# My Project
 
-## About
-This a portfolio that highlights my skills
-
-
-
-
+This is the README file with combined changes.

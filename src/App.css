@@ -35,7 +35,7 @@
 
   --z-tooltip: 10;
   --z-fixed: 100;
-  --z-modal: 1000;
+  --z-modal: 9999;
 }
 
 @media screen and (max-width: 992px){

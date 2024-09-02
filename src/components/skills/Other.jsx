@@ -31,7 +31,7 @@ const Other = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>Testing</h3>
+                        <h3 className='skills__name'>Code Testing</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -39,7 +39,7 @@ const Other = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>Data Entry</h3>
+                        <h3 className='skills__name'>Documentation</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>

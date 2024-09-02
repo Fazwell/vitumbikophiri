@@ -63,7 +63,51 @@ const Services = () => {
                         </div>
                     )}
                 </div>
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-arrow services__icon"></i>
+                        <h3 className="services__title">
+                            Algorithm <br /> Designing
+                        </h3>
+                    </div>
 
+                    <span className="services__button" onClick={() => toggleModal(2)}>
+                        View More
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+
+                    {activeModal === 2 && (
+                        <div className={`services__modal active-modal`}>
+                            <div className="services__modal-content">
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
+
+                                <h3 className="services__modal-title">Frontend Development</h3>
+                                <p className="services__modal-description">
+                                    Building responsive and modern web applications using the latest frontend technologies.
+                                </p>
+
+                                <ul className="services__modal-services grid">
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Responsive Web Design</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Single Page Applications (SPA)</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Progressive Web Applications (PWA)</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Frontend Frameworks (React, React Native, Next Js, Django)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+                </div>
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
@@ -102,14 +146,103 @@ const Services = () => {
                                     </li>
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Frontend Frameworks (React, Angular, Vue)</p>
+                                        <p>Frontend Frameworks (React, React Native, Next Js, Django)</p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-arrow services__icon"></i>
+                        <h3 className="services__title">
+                            Backend <br /> Development
+                        </h3>
+                    </div>
 
+                    <span className="services__button" onClick={() => toggleModal(2)}>
+                        View More
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+
+                    {activeModal === 2 && (
+                        <div className={`services__modal active-modal`}>
+                            <div className="services__modal-content">
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
+
+                                <h3 className="services__modal-title">Frontend Development</h3>
+                                <p className="services__modal-description">
+                                    Building responsive and modern web applications using the latest frontend technologies.
+                                </p>
+
+                                <ul className="services__modal-services grid">
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Responsive Web Design</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Single Page Applications (SPA)</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Progressive Web Applications (PWA)</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Frontend Frameworks (React, React Native, Next Js, Django)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+                </div>
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-arrow services__icon"></i>
+                        <h3 className="services__title">
+                            Software <br /> Documentation
+                        </h3>
+                    </div>
+
+                    <span className="services__button" onClick={() => toggleModal(2)}>
+                        View More
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+
+                    {activeModal === 2 && (
+                        <div className={`services__modal active-modal`}>
+                            <div className="services__modal-content">
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
+
+                                <h3 className="services__modal-title">Frontend Development</h3>
+                                <p className="services__modal-description">
+                                    Building responsive and modern web applications using the latest frontend technologies.
+                                </p>
+
+                                <ul className="services__modal-services grid">
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Responsive Web Design</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Single Page Applications (SPA)</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Progressive Web Applications (PWA)</p>
+                                    </li>
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Frontend Frameworks (React, React Native, Next Js, Django)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+                </div>
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
@@ -155,6 +288,7 @@ const Services = () => {
                         </div>
                     )}
                 </div>
+                
             </div>
         </section>
     );

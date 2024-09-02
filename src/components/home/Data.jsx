@@ -9,9 +9,9 @@ const Data = () => {
   return (
     <div data-aos="fade-down" className="home__data">
         <h1  className='home__title'>Fazwell Mwanguku</h1>
-        <h3 className='home__subtitle'>Web & Mobile App Developer</h3>
+        <h3 className='home__subtitle'>Computer Scientist</h3>
         <p className='home__description'>
-           Hello! I'm Fazwell Ethan Mwanguguku a profesional and creative full stack developer with expertise in building robust and scalable web applications. With a strong foundation in both front-end and back-end development, I bring a holistic approach to crafting seamless user experiences and robust server-side solutions.
+           Hello! I'm Fazwell Ethan Mwanguku a profesional Computer Scientist with expertise in Algorithm designing, building robust and scalable applications that inlcudes web and mobile applications. With a strong foundation in project management, front-end and back-end app development, I bring a holistic approach to crafting seamless user experiences and robust solutions.
         </p>
         <a href="#contact" className="button button--flex">Hire Me
         <svg

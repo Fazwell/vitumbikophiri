@@ -65,7 +65,7 @@ const Services = () => {
                 </div>
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-arrow services__icon"></i>
+                        <i className="uil uil-sitemap services__icon"></i>
                         <h3 className="services__title">
                             Algorithm <br /> Designing
                         </h3>
@@ -116,15 +116,15 @@ const Services = () => {
                         </h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleModal(2)}>
+                    <span className="services__button" onClick={() => toggleModal(3)}>
                         View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    {activeModal === 2 && (
+                    {activeModal === 3 && (
                         <div className={`services__modal active-modal`}>
                             <div className="services__modal-content">
-                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(3)}></i>
 
                                 <h3 className="services__modal-title">Frontend Development</h3>
                                 <p className="services__modal-description">
@@ -155,21 +155,21 @@ const Services = () => {
                 </div>
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-arrow services__icon"></i>
+                        <i className="uil uil-cog services__icon"></i>
                         <h3 className="services__title">
                             Backend <br /> Development
                         </h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleModal(2)}>
+                    <span className="services__button" onClick={() => toggleModal(4)}>
                         View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    {activeModal === 2 && (
+                    {activeModal === 4 && (
                         <div className={`services__modal active-modal`}>
                             <div className="services__modal-content">
-                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(4)}></i>
 
                                 <h3 className="services__modal-title">Frontend Development</h3>
                                 <p className="services__modal-description">
@@ -200,21 +200,21 @@ const Services = () => {
                 </div>
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-arrow services__icon"></i>
+                        <i className="uil uil-file-alt services__icon"></i>
                         <h3 className="services__title">
                             Software <br /> Documentation
                         </h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleModal(2)}>
+                    <span className="services__button" onClick={() => toggleModal(5)}>
                         View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    {activeModal === 2 && (
+                    {activeModal === 5 && (
                         <div className={`services__modal active-modal`}>
                             <div className="services__modal-content">
-                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(5)}></i>
 
                                 <h3 className="services__modal-title">Frontend Development</h3>
                                 <p className="services__modal-description">
@@ -251,15 +251,15 @@ const Services = () => {
                         </h3>
                     </div>
 
-                    <span className="services__button" onClick={() => toggleModal(3)}>
+                    <span className="services__button" onClick={() => toggleModal(6)}>
                         View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    {activeModal === 3 && (
+                    {activeModal === 6 && (
                         <div className={`services__modal active-modal`}>
                             <div className="services__modal-content">
-                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(3)}></i>
+                                <i className="uil uil-times services__modal-close" onClick={() => toggleModal(6)}></i>
 
                                 <h3 className="services__modal-title">Content Creation</h3>
                                 <p className="services__modal-description">

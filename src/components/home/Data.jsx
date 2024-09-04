@@ -8,7 +8,7 @@ const Data = () => {
   }, []);
   return (
     <div data-aos="fade-down" className="home__data">
-        <h1  className='home__title'>Fazwell Mwanguku</h1>
+        <h1  className='home__title'>Fazwell Ethan Mwanguku</h1>
         <h3 className='home__subtitle'>Computer Scientist</h3>
         <p className='home__description'>
            Hello! I'm Fazwell Ethan Mwanguku a profesional Computer Scientist with expertise in Algorithm designing, building robust and scalable applications that inlcudes web and mobile applications. With a strong foundation in project management, front-end and back-end app development, I bring a holistic approach to crafting seamless user experiences and robust solutions.

@@ -6,6 +6,13 @@
     padding: 2rem 0 1rem;
 
 }
+.personal_logo{
+    display: flex;
+    justify-content: center;
+}
+.personal_logo img{
+    width: 15%;
+}
 .footer__title,
 .footer__link{
     color: var(--title-color);

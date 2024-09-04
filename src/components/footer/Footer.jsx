@@ -1,10 +1,15 @@
 import React from 'react'
+import personalLogo from "../../assets/mylogo.png"
 import "./footer.css"
 
 const Footer = () => {
   return (
     <footer className='footer'>
         <div className='footer__container container'>
+            <div className='personal_logo'>
+            <img src={personalLogo} alt='PRG' />
+            </div>
+            
             <h1 className='footer__title'>Fazwell</h1>
             <ul className='footer__list'>
                 <li>

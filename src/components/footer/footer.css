@@ -59,7 +59,12 @@
     }
 }
 @media screen and (max-width: 768px){
-
+    .personal_logo img{
+        width: 35%;
+    }
+    .footer__title{
+        font-size: var(--custom);
+    }
 }
 @media screen and (max-width: 576px){
 

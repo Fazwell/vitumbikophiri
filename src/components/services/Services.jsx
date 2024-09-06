@@ -226,7 +226,7 @@ const Services = () => {
 
                                 <h3 className="services__modal-title">Software Documentation</h3>
                                 <p className="services__modal-description">
-                                Providing a well insight for code use, review and maintenanced.
+                                Providing a well insight for code use, review and maintenance.
                                 </p>
 
                                 <ul className="services__modal-services grid">

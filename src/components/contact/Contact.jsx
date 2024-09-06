@@ -18,7 +18,7 @@ const Contact = () => {
       "service_m2cjbct",
        "template_xmgp9tw", 
        form.current,
-        "n3t4Q5fYKE2o-xCgK")
+        "sgEOZobS9JsvguFmq")
       .then((result) => {
           console.log(result.text);
       }, (error) => {

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import "./about.css"
 import AboutImg from "../../assets/Faz.jpg"
-//import CV from "../../assets/Fazwell_Mwanguku_Resume.pdf"
+import CV from "../../assets/Vitumbiko_Phiri_CV.pdf"
 import Info from './Info'
 import AOS from 'aos'
 import "aos/dist/aos.css"
@@ -22,7 +22,7 @@ const About = () => {
             As a full stack developer, I specialize in the development of software applications. My skills include designing, coding, testing, debugging, and 
             maintaining software systems. I have a degree in computer science and have gained practical experience through developing several projects.
               </p>
-              <a  
+              <a download="" href={CV}
               className="button button--flex">
                 Downolad CV
                 <svg

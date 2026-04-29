@@ -10,7 +10,7 @@ const Footer = () => {
             <img src={personalLogo} alt='PRG' />
             </div>
             
-            <h1 className='footer__title'>Fazwell</h1>
+            <h1 className='footer__title'>Vitumbiko Phiri</h1>
             <ul className='footer__list'>
                 <li>
                     <a href="#about" className="footer__link">About</a>

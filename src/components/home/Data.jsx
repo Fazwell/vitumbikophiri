@@ -9,7 +9,7 @@ const Data = () => {
   return (
     <div data-aos="fade-down" className="home__data">
         <h1  className='home__title'>Vitumbiko Phiri</h1>
-        <h3 className='home__subtitle'>Computer Scientist</h3>
+        <h3 className='home__subtitle'>Social Worker</h3>
         <p className='home__description'>
         Enthusiastic and compassionate Social Work graduate focused on empowering communities and driving positive change. Experienced in counseling, advocacy, and community engagement, with a strong background working with youth, women, and vulnerable groups. Skilled in psychosocial support, resource mobilization, and training, with a commitment to continuous professional growth.
 

@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section className='skills section' id='skills'>
         <h2 data-aos="fade-up" className='section__title'>Skills</h2>
-        <span data-aos="fade-in" className='section__subtitle'>My Technical Skills</span>
+        <span data-aos="fade-in" className='section__subtitle'>My Skill Set</span>
         <div className='skills__container container grid '>
             <Frontend />
             <Backend/>

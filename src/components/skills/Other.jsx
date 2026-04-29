@@ -7,7 +7,7 @@ const Other = () => {
       }, []);
   return (
     <div data-aos="fade-up"  className='skills__content'>
-        <h3 className='skills__title'>Other Skills</h3>
+        <h3 className='skills__title'>Technical Knowledge</h3>
 
         <div className='skills__box'>
             <div className='skills__group'>
@@ -23,7 +23,7 @@ const Other = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>Web Hosting</h3>
+                        <h3 className='skills__name'>Digital Literate</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -31,7 +31,7 @@ const Other = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>Code Testing</h3>
+                        <h3 className='skills__name'>Ethics</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -39,7 +39,7 @@ const Other = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>Marketing</h3>
+                        <h3 className='skills__name'>Adaptability</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>

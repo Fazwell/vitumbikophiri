@@ -8,14 +8,14 @@ const Frontend = () => {
       }, []);
   return (
     <div data-aos="fade-up"  className='skills__content'>
-        <h3 className='skills__title'>Frontend Development</h3>
+        <h3 className='skills__title'>Core skills</h3>
 
         <div className='skills__box'>
             <div className='skills__group'>
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>JavaScript</h3>
+                        <h3 className='skills__name'>Communication</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -24,7 +24,7 @@ const Frontend = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>React Js</h3>
+                        <h3 className='skills__name'>Counceling</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -32,7 +32,7 @@ const Frontend = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>React Native</h3>
+                        <h3 className='skills__name'>Empathy</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -40,7 +40,7 @@ const Frontend = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>Figma</h3>
+                        <h3 className='skills__name'>Crisis support</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>
@@ -50,7 +50,7 @@ const Frontend = () => {
                 <div className='skills__data'>
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className='skills__name'>TypeScript</h3>
+                        <h3 className='skills__name'>Leadership</h3>
                         <span className='skills__level'>Advanced</span>
                         
                     </div>

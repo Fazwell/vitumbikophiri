@@ -22,7 +22,7 @@ const About = () => {
             As a full stack developer, I specialize in the development of software applications. My skills include designing, coding, testing, debugging, and 
             maintaining software systems. I have a degree in computer science and have gained practical experience through developing several projects.
               </p>
-              <a download="" href="#" 
+              <a  
               className="button button--flex">
                 Downolad CV
                 <svg

@@ -73,14 +73,14 @@ const Qualifications = () => {
               </div>
               <div className='qualification__data'>
                 <div>
-                    <h3 className='qualification__title'>Computer Science Degree</h3>
+                    <h3 className='qualification__title'>Bachelors Degree In Social Work</h3>
                     <span
                     className='qualification__subtitle'>
                       DMI St John The Baptist University
                     </span>
                     <div className='qualification__calender'>
                       <i className='uil uil-calender-alt'> 
-                      </i>2017-2021
+                      </i>2021-2024
                     </div>
                 </div>
                 <div className=''>

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import "./about.css"
-import AboutImg from "../../assets/Faz.jpg"
+import AboutImg from "../../assets/Vitu.jpg"
 import CV from "../../assets/Vitumbiko_Phiri_CV.pdf"
 import Info from './Info'
 import AOS from 'aos'

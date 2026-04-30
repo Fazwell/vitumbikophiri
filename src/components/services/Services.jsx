@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import './services.css';
 
@@ -18,11 +19,13 @@ const Services = () => {
             <span className="section__subtitle">What I offer</span>
 
             <div className="services__container container grid">
+
+                {/* Case Management */}
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-web-grid services__icon"></i>
+                        <i className="uil uil-heart services__icon"></i>
                         <h3 className="services__title">
-                            UX / UI <br /> Designing
+                            Case <br /> Management
                         </h3>
                     </div>
 
@@ -32,42 +35,32 @@ const Services = () => {
                     </span>
 
                     {activeModal === 1 && (
-                        <div className={`services__modal active-modal`}>
+                        <div className="services__modal active-modal">
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleModal(1)}></i>
 
-                                <h3 className="services__modal-title">UX / UI Designing</h3>
+                                <h3 className="services__modal-title">Case Management</h3>
                                 <p className="services__modal-description">
-                                    Experienced in UI/UX design with Figma providing the following services:
+                                    Coordinating and managing individual or family cases to ensure access to support services.
                                 </p>
 
                                 <ul className="services__modal-services grid">
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Application Wireframing</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Application Prototyping</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Web Design</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Mobile App Design</p>
-                                    </li>
+                                    <li><i className="uil uil-check-circle"></i><p>Client Assessment & Intake</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Care Planning & Goal Setting</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Service Coordination</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Progress Monitoring & Reporting</p></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
+
+                {/* Counseling */}
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-sitemap services__icon"></i>
+                        <i className="uil uil-comments services__icon"></i>
                         <h3 className="services__title">
-                            Algorithm <br /> Designing
+                            Counseling <br /> & Support
                         </h3>
                     </div>
 
@@ -77,42 +70,32 @@ const Services = () => {
                     </span>
 
                     {activeModal === 2 && (
-                        <div className={`services__modal active-modal`}>
+                        <div className="services__modal active-modal">
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleModal(2)}></i>
 
-                                <h3 className="services__modal-title">Algorithm Design</h3>
+                                <h3 className="services__modal-title">Counseling & Support</h3>
                                 <p className="services__modal-description">
-                                    Crafted efficient, and scarable algorithms tailored to meet the needs of your business.
+                                    Providing emotional and psychological support to individuals and families.
                                 </p>
 
                                 <ul className="services__modal-services grid">
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Custom Algorithm Design</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Problem Solving Expertise</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Real World Application</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Consultation and Code Review</p>
-                                    </li>
+                                    <li><i className="uil uil-check-circle"></i><p>Individual Counseling</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Family & Group Support</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Crisis Intervention</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Mental Health Advocacy</p></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
+
+                {/* Advocacy */}
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-arrow services__icon"></i>
+                        <i className="uil uil-balance-scale services__icon"></i>
                         <h3 className="services__title">
-                            Frontend <br /> Development
+                            Advocacy <br /> & Rights
                         </h3>
                     </div>
 
@@ -122,46 +105,32 @@ const Services = () => {
                     </span>
 
                     {activeModal === 3 && (
-                        <div className={`services__modal active-modal`}>
+                        <div className="services__modal active-modal">
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleModal(3)}></i>
 
-                                <h3 className="services__modal-title">Frontend Development</h3>
+                                <h3 className="services__modal-title">Advocacy & Rights Protection</h3>
                                 <p className="services__modal-description">
-                                    Building responsive and modern web applications using the latest frontend technologies.
+                                    Supporting and protecting the rights of vulnerable individuals.
                                 </p>
 
                                 <ul className="services__modal-services grid">
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Responsive Web Design</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Mobile App Design</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Single Page Applications (SPA)</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Progressive Web Applications (PWA)</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Frontend Frameworks (React, React Native, Next Js, Django)</p>
-                                    </li>
+                                    <li><i className="uil uil-check-circle"></i><p>Legal & Social Advocacy</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Child Protection</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>GBV Support</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Policy Awareness</p></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
+
+                {/* Community Development */}
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-cog services__icon"></i>
+                        <i className="uil uil-users-alt services__icon"></i>
                         <h3 className="services__title">
-                            Backend <br /> Development
+                            Community <br /> Development
                         </h3>
                     </div>
 
@@ -171,46 +140,32 @@ const Services = () => {
                     </span>
 
                     {activeModal === 4 && (
-                        <div className={`services__modal active-modal`}>
+                        <div className="services__modal active-modal">
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleModal(4)}></i>
 
-                                <h3 className="services__modal-title">Backend Development</h3>
+                                <h3 className="services__modal-title">Community Development</h3>
                                 <p className="services__modal-description">
-                                    Writing well defined functional code that works seamlessly to process frontend data.
+                                    Designing and implementing programs that uplift communities.
                                 </p>
 
                                 <ul className="services__modal-services grid">
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>API DDevelopment & Integration</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Database Management</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Web Authentication & Authorization</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Business logic implementation</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Server and Deployment Management</p>
-                                    </li>
+                                    <li><i className="uil uil-check-circle"></i><p>Needs Assessment</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Program Implementation</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Youth & Women Empowerment</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Capacity Building</p></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
+
+                {/* Research */}
                 <div className="services__content">
                     <div>
                         <i className="uil uil-file-alt services__icon"></i>
                         <h3 className="services__title">
-                            Software <br /> Documentation
+                            Research <br /> & Reporting
                         </h3>
                     </div>
 
@@ -220,35 +175,32 @@ const Services = () => {
                     </span>
 
                     {activeModal === 5 && (
-                        <div className={`services__modal active-modal`}>
+                        <div className="services__modal active-modal">
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleModal(5)}></i>
 
-                                <h3 className="services__modal-title">Software Documentation</h3>
+                                <h3 className="services__modal-title">Research & Reporting</h3>
                                 <p className="services__modal-description">
-                                Providing a well insight for code use, review and maintenance.
+                                    Collecting and analyzing data to inform interventions.
                                 </p>
 
                                 <ul className="services__modal-services grid">
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Technical or code documentation</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>User and use case documentation</p>
-                                    </li>
-                                
+                                    <li><i className="uil uil-check-circle"></i><p>Field Research</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Data Analysis</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Report Writing</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Monitoring & Evaluation</p></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
+
+                {/* Training */}
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-edit services__icon"></i>
+                        <i className="uil uil-graduation-cap services__icon"></i>
                         <h3 className="services__title">
-                            Content <br /> Creation
+                            Training <br /> & Education
                         </h3>
                     </div>
 
@@ -258,38 +210,26 @@ const Services = () => {
                     </span>
 
                     {activeModal === 6 && (
-                        <div className={`services__modal active-modal`}>
+                        <div className="services__modal active-modal">
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleModal(6)}></i>
 
-                                <h3 className="services__modal-title">Content Creation</h3>
+                                <h3 className="services__modal-title">Training & Education</h3>
                                 <p className="services__modal-description">
-                                    Crafting engaging and informative content for various platforms and audiences.
+                                    Educating communities on key social and health issues.
                                 </p>
 
                                 <ul className="services__modal-services grid">
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Blog Writing</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>SEO Content</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Social Media Content</p>
-                                    </li>
-                                    <li className="services__modal-service">
-                                        <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Video Scripts</p>
-                                    </li>
+                                    <li><i className="uil uil-check-circle"></i><p>Life Skills Training</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Health Education</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Awareness Campaigns</p></li>
+                                    <li><i className="uil uil-check-circle"></i><p>Outreach Programs</p></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                 </div>
-                
+
             </div>
         </section>
     );

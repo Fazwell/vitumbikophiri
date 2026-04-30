@@ -19,9 +19,8 @@ const About = () => {
           <div className='about__data'>
             <Info />
             <p data-aos="fade-down-left" className='about__description'>
-            As a full stack developer, I specialize in the development of software applications. My skills include designing, coding, testing, debugging, and 
-            maintaining software systems. I have a degree in computer science and have gained practical experience through developing several projects.
-              </p>
+            As a social work professional, I provide psychosocial support, counseling, case management, and community development services to improve individual and community well-being. I hold a Bachelor’s Degree in Social Work (Community Development and Project Management) and have practical experience through clinical, community, and field-based programs in mental health, child protection, and empowerment initiatives.
+           </p>
               <a download="" href={CV}
               className="button button--flex">
                 Downolad CV
